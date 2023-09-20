@@ -4,6 +4,7 @@ import PrimNav from "./components/PrimNav";
 import SecNav from "./components/SecNav";
 import Hero from "./components/Hero";
 import Article from "./components/Article";
+import Services from "./components/Services";
 import "./App.css";
 
 function App() {
@@ -13,6 +14,7 @@ function App() {
       <PrimNav />
       <Hero />
       <Article />
+      <Services />
     </div>
   );
 }

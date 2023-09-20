@@ -48,7 +48,7 @@ const Article = () => {
       <div className="py-5">
         <div className="container py-5">
           <div className="row align-items-center">
-            <div className="col-md-6">
+            <div className="col-md-7 p-5">
               <h1 className="text-capitalize">
                 We have many years of experience in consultant business
               </h1>
@@ -62,14 +62,16 @@ const Article = () => {
                 href="#"
                 className="btn btn-primary px-4 py-2 fs-6 fw-bold mt-4"
               >
-                Start Now
+                Know More
               </a>
             </div>
-            <div className="col-md-6">
-              <div className="d-flex justify-content-end align-items-center">
-                <p className="btn-play d-flex justify-content-center align-items-center">
-                  <i className="fa-solid fa-play"></i>
-                </p>
+            <div className="article-img-box col-md-5 d-flex justify-content-center align-items-center article-rel">
+              <div className="main-cont d-flex justify-content-center align-items-center">
+                <div className="btn-play">
+                  <div className="play-icon d-flex justify-content-center align-items-center">
+                    <p>▶</p>
+                  </div>
+                </div>
                 <img src={Img} alt="hero-image" className="img-fluid" />
               </div>
             </div>

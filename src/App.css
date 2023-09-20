@@ -43,37 +43,61 @@ i {
   letter-spacing: -1px;
 }
 
-.container-inner {
-}
-
-.container-inner img {
-  height: 25em;
-  width: 75%;
+/* ARTUCLE */
+.article-img-box img {
+  height: 20rem;
 }
 
 .article-img-box {
   position: relative;
 }
 
-.btn-play {
+.main-cont .play-icon {
+  background-color: var();
   position: absolute;
-  height: 6em;
-  width: 6em;
-  background-color: var(--blue);
-  left: 25%;
-  top: 50%;
+  height: 5em;
+  width: 5em;
   border-radius: 100px;
+  top: 50%;
+  border: 5px solid #daebf2;
+  background: #00bbf0;
   transform: translate(-50%, -50%);
-  border: 6px solid white;
 }
 
-/* .btn-play i {
-  font-size: 2.5em;
+.play-icon p {
+  font-size: 24px;
+  transform: translate(0, 20%);
   color: white;
-  transform: translate(25%);
-} */
+}
 
-.container-inner h1 {
-  font-weight: 700;
-  font-size: 2em;
+/* Cards */
+
+.services {
+  padding: 2.5em;
+  background-color: #00bcf01a;
+}
+
+.card-body {
+  padding: 5rem 0;
+}
+
+.card-body p {
+}
+
+.ser-top {
+  position: absolute;
+  background-color: #fff;
+  border: 2px solid #00bcf01a;
+  height: 4.5em;
+  width: 4.5em;
+  left: 50%;
+  border-radius: 50px;
+  transform: translate(-50%, -50%);
+}
+
+.ser-top i {
+  font-size: 24px;
+  position: absolute;
+  transform: translate(-30%, +100%);
+  color: #00bbf0;
 }
