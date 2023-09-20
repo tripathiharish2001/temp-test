@@ -1,38 +1,79 @@
-.App {
-  text-align: center;
+/* @import url("https://fonts.googleapis.com/css2?family=Mooli&display=swap"); */
+
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap");
+
+:root {
+  --blue: #00bbf0;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+/* NAV */
+.sec-nav {
+  background-color: var(--blue);
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.navbar-nav,
+.mr-auto {
+  flex: 1;
+  margin: auto !important;
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  justify-content: flex-end;
+}
+
+i {
+  font-size: 18px;
+  padding-right: 16px;
+}
+
+/* #hero */
+
+.container-hero {
+  background-color: #00bcf01a;
+}
+
+.hero-text-box h1 {
+  font-weight: 700;
+  font-size: 3em;
+  letter-spacing: -1px;
+}
+
+.container-inner {
+}
+
+.container-inner img {
+  height: 25em;
+  width: 75%;
+}
+
+.article-img-box {
+  position: relative;
+}
+
+.btn-play {
+  position: absolute;
+  height: 6em;
+  width: 6em;
+  background-color: var(--blue);
+  left: 25%;
+  top: 50%;
+  border-radius: 100px;
+  transform: translate(-50%, -50%);
+  border: 6px solid white;
+}
+
+/* .btn-play i {
+  font-size: 2.5em;
   color: white;
-}
+  transform: translate(25%);
+} */
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.container-inner h1 {
+  font-weight: 700;
+  font-size: 2em;
 }
