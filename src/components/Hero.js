@@ -6,7 +6,7 @@ const Hero = () => {
     <>
       <div className="container-hero">
         <div className="container ">
-          <div className="row align-items-center py-4">
+          <div className="row align-items-center pt-4">
             <div className="col-md-6">
               <div className="hero-text-box">
                 <h4 className="fs-5 fw-bold">Ki Name Dhake Bolibo Tomaka</h4>
@@ -30,7 +30,7 @@ const Hero = () => {
                 <img
                   src={Img}
                   alt="hero-image"
-                  className="img-fluid img-sm img-md-6"
+                  className="img-fluid img-sm img-md-6 hero-img"
                 />
               </div>
             </div>

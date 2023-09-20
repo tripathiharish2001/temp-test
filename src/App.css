@@ -4,6 +4,7 @@
 
 :root {
   --blue: #00bbf0;
+  --sec-blue: #00bcf01a;
 }
 
 * {
@@ -11,6 +12,14 @@
   margin: 0;
   box-sizing: border-box;
   font-family: "Roboto", sans-serif;
+}
+
+h1 {
+  color: #333;
+}
+
+p:not(.secNav-text p, .container-form p) {
+  color: #555;
 }
 
 /* NAV */
@@ -34,13 +43,18 @@ i {
 /* #hero */
 
 .container-hero {
-  background-color: #00bcf01a;
+  background-color: var(--sec-blue);
 }
 
 .hero-text-box h1 {
   font-weight: 700;
-  font-size: 3em;
+  font-size: 2.8em;
   letter-spacing: -1px;
+}
+
+.hero-img {
+  height: 550px;
+  filter: drop-shadow(2px 2px 5px #9de5ee);
 }
 
 /* ARTUCLE */
@@ -72,22 +86,33 @@ i {
 
 /* Cards */
 
+.ser-head {
+  margin-bottom: 4rem;
+}
+
+.ser-head h1 {
+  font-weight: 600;
+}
+
+.ser-head p {
+  width: 30%;
+  margin: auto;
+  text-align: center;
+}
+
 .services {
   padding: 2.5em;
-  background-color: #00bcf01a;
+  background-color: var(--sec-blue);
 }
 
 .card-body {
   padding: 5rem 0;
 }
 
-.card-body p {
-}
-
 .ser-top {
   position: absolute;
   background-color: #fff;
-  border: 2px solid #00bcf01a;
+  border: 2px solid var(--sec-blue);
   height: 4.5em;
   width: 4.5em;
   left: 50%;
@@ -100,4 +125,69 @@ i {
   position: absolute;
   transform: translate(-30%, +100%);
   color: #00bbf0;
+}
+
+hr {
+  color: var(--blue);
+  width: 10%;
+  margin: auto;
+  padding-bottom: 2px;
+  margin-bottom: 1rem;
+}
+
+.border-primary {
+  transform: scale(1.05);
+  box-shadow: 0px 2px 10px #75b6cd;
+}
+
+/* FORM */
+input {
+  color: #00bbf0;
+}
+
+.section-form {
+  background-image: url("https://t3.ftcdn.net/jpg/02/10/55/60/360_F_210556027_pNmg4EUFwrn2W25SDdWayPakVIztTSe8.jpg");
+  text-transform: capitalize;
+}
+
+.container-form {
+  padding: 5em;
+  color: #ddd;
+  width: 80%;
+  /* height: 10em; */
+}
+
+.container-form h2 {
+  font-weight: 600;
+  /* width: 2em; */
+  font-size: 30px;
+}
+
+input {
+  font-size: 1.2rem;
+  background-color: transparent !important;
+  border: none;
+  border: 3px #eee solid !important;
+  width: 25rem;
+  padding-left: 20px;
+  height: 50px;
+  border-radius: 10px;
+}
+
+::placeholder {
+  color: #eee !important;
+}
+
+@media (max-width: 615px) {
+  .sec-nav span {
+    display: none;
+  }
+  .sec-nav {
+    /* display: block !important; */
+    justify-content: center !important;
+  }
+
+  .secNav-text p {
+    padding: 0 !important;
+  }
 }

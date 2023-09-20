@@ -48,8 +48,8 @@ const Article = () => {
       <div className="py-5">
         <div className="container py-5">
           <div className="row align-items-center">
-            <div className="col-md-7 p-5">
-              <h1 className="text-capitalize">
+            <div className="article-text col-md-7 p-5">
+              <h1 className="text-capitalize fs-3">
                 We have many years of experience in consultant business
               </h1>
               <p className="text-justify">

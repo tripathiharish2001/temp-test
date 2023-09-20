@@ -3,6 +3,14 @@ import React from "react";
 const Services = () => {
   return (
     <div className="services">
+      <div className="ser-head header text-center mt-4">
+        <h1>Our Services</h1>
+        <hr />
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores
+          aspernatur hic nemo
+        </p>
+      </div>
       <div className="container">
         <div className=" row justify-content-center">
           <div className="col-md-3">

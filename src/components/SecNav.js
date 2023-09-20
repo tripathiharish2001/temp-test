@@ -11,13 +11,13 @@ const SecNav = () => {
       >
         <div className="secNav-text d-flex fs-6">
           <p className="m-auto pe-5">
-            <i class="fa-regular fa-envelope"></i> xyz@abc.com
+            <i class="fa-regular fa-envelope"></i> <span>xyz@abc.com</span>
           </p>
           <p className="m-auto">
-            <i class="fa-regular fa-clock"></i>We are open 24/7
+            <i class="fa-regular fa-clock"></i> <span>We are open 24/7</span>
           </p>
         </div>
-        <div className="icons-nav d-flexp">
+        <div className="icons-nav d-flex">
           <i class="fa-brands fa-facebook-f"></i>
           <i class="fa-brands fa-twitter"></i>
           <i class="fa-brands fa-instagram"></i>

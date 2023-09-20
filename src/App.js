@@ -5,6 +5,7 @@ import SecNav from "./components/SecNav";
 import Hero from "./components/Hero";
 import Article from "./components/Article";
 import Services from "./components/Services";
+import SubscriptionForm from "./components/SubscriptionForm";
 import "./App.css";
 
 function App() {
@@ -15,6 +16,7 @@ function App() {
       <Hero />
       <Article />
       <Services />
+      <SubscriptionForm />
     </div>
   );
 }
